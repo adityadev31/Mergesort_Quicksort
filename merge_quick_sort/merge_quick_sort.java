@@ -6,7 +6,7 @@ public class MergeSort{
         int temp = arr[x];
         arr[x] = arr[y];
         arr[y] = temp;
-    }
+   	}
 
 	public static int partition(int arr[], int l, int r){
 		int pivot = r;
